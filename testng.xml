@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="User Test Suite">
+     <listeners>
+        <listener class-name="restassured.Listeners.TestListener" />
+    </listeners>
+    <test name="User API Tests">
+        <classes>
+            <class name="restassured.TestClasses.CreateUserTest" />
+            <class name="restassured.TestClasses.GetUserTest" /> 
+            <class name="restassured.TestClasses.UpdateUserTest" />
+
+        </classes>
+    </test>
+</suite>

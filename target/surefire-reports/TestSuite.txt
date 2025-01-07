@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 1.696 s <<< FAILURE! - in TestSuite
+restassured.TestClasses.CreateUserTest.createUserType  Time elapsed: 0.881 s  <<< FAILURE!
+java.net.UnknownHostException: No such host is known (reqres.in)
+	at restassured.TestClasses.CreateUserTest.createUserType(CreateUserTest.java:27)
+
+restassured.TestClasses.CreateUserTest.errorHandlingUserwithEmptyData  Time elapsed: 0.01 s  <<< FAILURE!
+java.net.UnknownHostException: reqres.in
+	at restassured.TestClasses.CreateUserTest.errorHandlingUserwithEmptyData(CreateUserTest.java:51)
+
+restassured.TestClasses.GetUserTest.errorhandlingNonExistingUser  Time elapsed: 0.022 s  <<< FAILURE!
+java.net.UnknownHostException: reqres.in
+	at restassured.TestClasses.GetUserTest.errorhandlingNonExistingUser(GetUserTest.java:36)
+
+restassured.TestClasses.GetUserTest.getUserData  Time elapsed: 0.008 s  <<< FAILURE!
+java.net.UnknownHostException: reqres.in
+	at restassured.TestClasses.GetUserTest.getUserData(GetUserTest.java:26)
+
+restassured.TestClasses.UpdateUserTest.updateUserTest  Time elapsed: 0.01 s  <<< FAILURE!
+java.net.UnknownHostException: reqres.in
+	at restassured.TestClasses.UpdateUserTest.updateUserTest(UpdateUserTest.java:27)
+

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: restassured.TestClasses.GetUserTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4,189.112 s <<< FAILURE! - in restassured.TestClasses.GetUserTest
+restassured.TestClasses.GetUserTest.getUserData  Time elapsed: 4,188.346 s  <<< FAILURE!
+java.lang.AssertionError: expected [Test Name] but found [Janet]
+	at restassured.TestClasses.GetUserTest.getUserData(GetUserTest.java:19)
+
